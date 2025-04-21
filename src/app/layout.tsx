@@ -41,15 +41,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta name="google-site-verification" content="Cp_affyVUjU-UBwp0QLlHyv1L6wc4FoJAqg5iXT538s" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z3E7474TL"></script>
+      <meta name="google-site-verification" content="qtF6bh1d2Fs5IN5P9-UIymEDB64u8AuQyVBbWI6dNB8" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYFS8C7VC0"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-1Z3E7474TL');
+              gtag('config', 'G-WYFS8C7VC0');
             `,
           }}
         />
@@ -58,6 +58,7 @@ export default function RootLayout({
         <NavBar/>
         {children}
         <TawkTo/>
+       
         <Footer/>
       </body>
     </html>
